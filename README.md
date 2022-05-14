@@ -17,11 +17,11 @@ https://api.realw.kr/game/v1
 ```
 
 ### 사용자 인증
-API 호출시 리얼월드로 부터 발급받은 `API Key` 를 `X-API-Credential` 헤더로 전송해야 합니다.<br>
+API 호출시 `리얼월드`로 부터 발급받은 `API Key` 를 `X-API-Credential` 헤더로 전송해야 합니다.<br>
 해당 헤더가 존재하지 않거나 올바르지 않은 `API Key` 가 전송되면 API 호출이 서버 대기열에서 삭제됩니다.
 
 ### 요청 빈도 제한
-API 호출은 IP별 분당 100회로 제한됩니다. 더 많은 빈도 제한을 원하면 discord.gg/realw 로 문의 바랍니다.
+API 호출은 IP별 분당 100회로 제한됩니다. 더 많은 빈도 제한을 원하면 `discord.gg/realw` 로 문의 바랍니다.
 
 ### HTTP 반환 코드
 - HTTP 4XX 반환 코드는 잘못된 요청에 사용됩니다. 문제는 호출자 측에 있습니다.
@@ -33,7 +33,7 @@ API 호출은 IP별 분당 100회로 제한됩니다. 더 많은 빈도 제한�
 
 ## API 목록
 
-- 모든 API 호출에는 X-API-Credential 헤더가 포함되어야 합니다.
+- 모든 API 호출에는 `X-API-Credential` 헤더가 포함되어야 합니다.
 
 ### 서버
 
